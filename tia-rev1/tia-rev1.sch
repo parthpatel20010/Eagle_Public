@@ -12444,7 +12444,7 @@ Vout = 5V</text>
 <wire x1="320.04" y1="157.48" x2="353.06" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="TIA_FB" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="FB"/>
 <wire x1="190.5" y1="208.28" x2="182.88" y2="208.28" width="0.1524" layer="91"/>
@@ -12455,7 +12455,7 @@ Vout = 5V</text>
 <junction x="182.88" y="210.82"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="IN-" class="0">
 <segment>
 <pinref part="X2" gate="G1" pin="1"/>
 <wire x1="154.94" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
@@ -12475,7 +12475,7 @@ Vout = 5V</text>
 <junction x="165.1" y="198.12"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="V_OUT" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <label x="243.84" y="204.47" size="0.8128" layer="95" rot="R180"/>
@@ -12490,7 +12490,7 @@ Vout = 5V</text>
 <wire x1="190.5" y1="195.58" x2="190.5" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="LDO_IN/EN" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="IN"/>
 <wire x1="162.56" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
